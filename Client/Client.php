@@ -289,13 +289,4 @@ abstract class Client
         }
         return $response->getData();
     }
-    
-    /**
-     * Returns an array of the available commands.
-     * @return array of commands
-     */
-    public function help()
-    {
-        return $this->rootNamespace->children;
-    }
 }

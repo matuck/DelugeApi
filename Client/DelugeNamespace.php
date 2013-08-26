@@ -31,7 +31,7 @@ class DelugeNamespace {
      * instance.
      * @access private
      */
-    public $children = array();
+    private $children = array();
     
     /**
      * @var A cache of child Command and DelugeNamespace objects.
