@@ -1,5 +1,5 @@
 {
-    "name": "matuck/delugeApi",
+    "name": "matuck/delugeapi",
     "type": "library",
     "description":  "Interact with Deluge torrent deamon",
     "keywords": ["deluge", "torrent"],
