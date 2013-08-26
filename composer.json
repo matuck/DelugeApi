@@ -1,0 +1,21 @@
+{
+    "name": "matuck/delugeApi",
+    "type": "library",
+    "description":  "Interact with Deluge torrent deamon",
+    "keywords": ["deluge", "torrent"],
+    "license": "GPL-v3",
+    "homepage": "https://github.com/matuck/DelugeApi.git",
+    "authors": [
+        {
+            "name": "Mitch Tuck",
+            "email": "matuck@matuck.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": { "matuck\\DelugeApi\\": "" }
+    },
+    "target-dir": "matuck/DelugeApi"
+}
